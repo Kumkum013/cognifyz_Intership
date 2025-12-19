@@ -47,9 +47,9 @@ Project Folder/
 ---
 
 ## 📸 Screenshot
-![alt text](<Screenshot 2025-12-12 162651.png>)
+![alt text](<public/Screenshot 2025-12-12 162651.png>)
 
-![alt text](<Screenshot 2025-12-12 162952.png>)
+![alt text](<public/Screenshot 2025-12-12 162952.png>)
 
 ## 🧠 Learning Outcomes
 
