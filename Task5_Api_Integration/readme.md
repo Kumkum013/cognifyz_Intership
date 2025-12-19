@@ -1,43 +1,43 @@
-# Weather App – API Based Project
+# 🌦️ Weather App – API Based Project
 
 ## 📌 Project Overview
 
-This is a **Weather Application** built using **HTML, CSS, and JavaScript (Fetch API)**.
-It fetches real-time weather data from a Weather API and displays:
+This is a **Weather Application** built using **HTML, CSS, and JavaScript (Fetch API)**.  
+It fetches **real-time weather data** from a weather API and displays essential weather details in a clean, responsive UI.
 
-* 🌡️ Temperature
-* 💧 Humidity
-* 🌬️ Wind Speed
-* ☁️ Weather Condition Icons (auto changes based on real-time weather)
+### 🌍 Displays Real-Time Data:
+- 🌡️ Temperature (°C)
+- 💧 Humidity
+- 🌬️ Wind Speed
+- ☁️ Weather Condition Icons (auto-updated based on weather)
 
-The UI is clean, responsive, and includes dynamic image updates based on the weather condition (e.g., clouds, rain, clear sky, thunderstorm, etc.).
+The application dynamically updates images and UI elements based on conditions such as **clear sky, clouds, rain, snow, thunderstorm**, etc.
 
 ---
 
 ## 🎯 Features
 
-* Fetches live weather data using API
-* Displays temperature in Celsius
-* Shows humidity percentage
-* Shows wind speed
-* Weather-based dynamic icons
-* Error handling for invalid city names
-* Responsive UI design
+- ✅ Fetches live weather data using API
+- 🌡️ Displays temperature in Celsius
+- 💧 Shows humidity percentage
+- 🌬️ Shows wind speed
+- ☁️ Dynamic weather icons
+- ❌ Error handling for invalid city names
+- 📱 Fully responsive UI
 
 ---
 
 ## 🛠️ Technologies Used
 
-* **HTML5** – Structure
-* **CSS3** – Styling
-* **JavaScript (main.js)** – API integration and logic
-* **OpenWeatherMap API** (or whichever API you used)
+- **HTML5** – Structure  
+- **CSS3** – Styling & responsiveness  
+- **JavaScript (main.js)** – API integration & logic  
+- **Weather API** (e.g., OpenWeatherMap API)
 
 ---
 
 ## 📂 Folder Structure
 
-```
 Project Folder/
 │
 ├── index.html
@@ -45,74 +45,81 @@ Project Folder/
 ├── main.js
 │
 ├── Assets/
-│   ├── bg.jpg
-│   ├── search.png
-│   │
-│   ├── message/
-│   │   ├── not-found.png
-│   │   └── search-city.png
-│   │
-│   └── weather/
-│       ├── atmosphere.svg
-│       ├── clear.svg
-│       ├── clouds.svg
-│       ├── drizzle.svg
-│       ├── rain.svg
-│       ├── snow.svg
-│       └── thunderstorm.svg
-```
+│ ├── bg.jpg
+│ ├── search.png
+│ │
+│ ├── message/
+│ │ ├── not-found.png
+│ │ └── search-city.png
+│ │
+│ └── weather/
+│ ├── atmosphere.svg
+│ ├── clear.svg
+│ ├── clouds.svg
+│ ├── drizzle.svg
+│ ├── rain.svg
+│ ├── snow.svg
+│ └── thunderstorm.svg
+
+yaml
+Copy code
 
 ---
 
 ## 🚀 How to Run the Project
 
-2. Open `index.html` in any browser (Chrome recommended).
-
-3. Make sure `style.css` and `main.js` are properly linked.
-
-2. Open **index.html** in any browser.
-3. Ensure **main.js** contains your API key.
-4. Type any city name → Get real-time weather updates.
+1. Download or clone the repository.
+2. Open `index.html` in any modern browser (Chrome recommended).
+3. Ensure:
+   - `style.css` and `main.js` are correctly linked.
+   - Your **API key** is added inside `main.js`.
+4. Enter a city name to get real-time weather updates.
 
 ---
 
 ## 🔑 How It Works
 
-* User enters a city name.
-* `main.js` sends a request using `fetch()`.
-* API returns JSON data.
-* UI displays:
-
-  * Current Temperature
-  * Humidity (%)
-  * Wind Speed
-  * Appropriate weather icon (auto-selected using conditions like `clear`, `clouds`, `rain`, etc.)
-* Shows "City not found" message for invalid inputs.
+1. User enters a city name.
+2. `main.js` sends a request using `fetch()`.
+3. API returns weather data in **JSON format**.
+4. The UI displays:
+   - Current temperature
+   - Humidity (%)
+   - Wind speed
+   - Auto-selected weather icon
+5. Displays **“City not found”** for invalid inputs.
 
 ---
 
 ## 📸 Screenshots
-![alt text](<Screenshot 2025-12-12 163557.png>)
 
-![alt text](<Screenshot 2025-12-12 164057.png>)
+![Weather App UI](public/Screenshot%202025-12-12%20163557.png)
+
+![Weather Result](public/Screenshot%202025-12-12%20164057.png)
 
 ---
 
 ## 🧠 Learning Outcomes
 
-* Implemented **API fetching** using JavaScript
-* Understood **JSON data handling**
-* Built a **dynamic UI** that changes based on weather conditions
-* Improved CSS skills for layout and design
+- Learned how to fetch data using **JavaScript Fetch API**
+- Worked with **JSON data**
+- Built a **dynamic UI** based on API response
+- Improved **CSS layout and styling skills**
+- Implemented error handling in real-world scenarios
 
 ---
 
 ## 📝 Future Enhancements
 
-* Add 5-day weather forecast
-* Add temperature unit toggle (°C/°F)
-* Add geolocation-based weather detection
-* Add animations
-
+- 📅 5-day weather forecast
+- 🌡️ Temperature unit toggle (°C / °F)
+- 📍 Geolocation-based weather detection
+- 🎨 Smooth animations and transitions
 
 ---
+
+## 👩‍💻 Author
+
+**Kumkum Kumari**  
+Cognifyz Internship – API Based Project  
+Built with ❤️ using HTML, CSS & JavaScript
