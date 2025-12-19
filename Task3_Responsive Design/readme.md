@@ -1,28 +1,41 @@
-🌐 StudySync – Fully Responsive Blog / Landing Page
+# 🌐 StudySync – Fully Responsive Blog / Landing Page
 
-A clean, modern, and fully responsive blog-style landing page built using HTML5, CSS3, and SVG assets. This project is part of the Cognifyz Internship Task describing responsive web design skills.
+A clean, modern, and **fully responsive blog-style landing page** built using **HTML5, CSS3, and SVG assets**.  
+This project is part of the **Cognifyz Internship – Task 3**, demonstrating **responsive web design skills**.
 
-📌 Features
-✅ Fully Responsive Design
+---
 
-Works seamlessly on mobile, tablet, and desktop screens
+## 📌 Features
 
-Responsive navbar with hamburger menu
+### ✅ Fully Responsive Design
+- Works seamlessly on **mobile, tablet, and desktop**
+- Responsive **navbar with hamburger menu**
+- Flexible grid and layout using **modern CSS**
+- Mobile-first approach
 
-Flexible grid & layout using modern CSS
+### 🎨 Modern UI / UX
+- Hero section with large heading
+- Smooth typography and spacing
+- High-quality images and SVG icons
+- Custom buttons with hover effects
 
-🎨 Modern UI/UX
+---
 
-Hero section with large heading
+## 🖼️ Folder Structure
 
-Smooth typography
-
-High-quality images and SVG icons
-
-Custom buttons and hover effects
-
-🖼️ Clean Folder Structure
 Task3_ResponsiveDesign/
+│── index.html
+│── style.css
+│── readme.md
+│── img.png
+│── Sectionimage.jpg
+│── Responsive.png
+│── StudySync.svg
+│── Analytics.svg
+│── PersonalizedLearning.svg
+│── InnovativeTech.svg
+│── IndustryPatner.svg
+│── Affordability.svg
 │── avatar1.png
 │── avatar2.png
 │── avatar3.png
@@ -30,102 +43,94 @@ Task3_ResponsiveDesign/
 │── google.svg
 │── twitter.svg
 │── linkedin.svg
-│── menu (hamburger).svg
-│── img.png
-│── index.html
-│── style.css
-│── readme.md
-│── Analytics.svg
-│── StudySync.svg
-│── Responsive.png
-│── Sectionimage.jpg
-│── PersonalizedLearning.svg
-│── InnovativeTech.svg
-│── IndustryPatner.svg
-│── Affordability.svg
+│── menu.svg
 
-🚀 Tech Stack Used
-Technology	Purpose
-HTML5	Page structure & content
-CSS3	Styling, responsiveness, animation
-SVG Icons	Clean vector illustrations
-Flexbox & Media Queries	Responsive layout
-📸 Screenshots
-![alt text](<Screenshot 2025-12-12 173714.png>)
-![alt text](<Screenshot 2025-12-12 173742.png>)
-![alt text](<Screenshot 2025-12-12 173800.png>)
-![alt text](<Screenshot 2025-12-12 173822.png>)
-![alt text](<Screenshot 2025-12-12 173841.png>)
+yaml
+Copy code
 
+---
 
-(Add screenshot later if you want)
+## 🚀 Tech Stack Used
 
-📄 How to Run the Project
+| Technology | Purpose |
+|-----------|---------|
+| HTML5 | Page structure & content |
+| CSS3 | Styling, responsiveness |
+| SVG Icons | Clean vector illustrations |
+| Flexbox & Media Queries | Responsive layout |
 
-No installation required.
+---
 
-✔ Option 1: Open Locally
+## 📸 Screenshots
 
-Download or clone the repo
+> *(Images will render correctly on GitHub if paths are correct)*
 
-Open index.html in your browser
+![Homepage](public/Screenshot%202025-12-12%20173714.png)
+![Responsive View](public/Screenshot%202025-12-12%20173742.png)
+![Features Section](public/Screenshot%202025-12-12%20173800.png)
+![Testimonials](public/Screenshot%202025-12-12%20173822.png)
+![Footer Section](publicScreenshot%202025-12-12%20173841.png)
 
-Done!
+---
 
-✔ Option 2: Using VS Code Live Server
-Right click → Open with Live Server
+## 📄 How to Run the Project
 
-📦 Responsive Features Implemented
+### ✔ Option 1: Open Locally
+1. Download or clone the repository  
+2. Open `index.html` in your browser  
+3. Done 🎉
 
-Responsive Navbar
+### ✔ Option 2: Using VS Code Live Server
+- Right-click `index.html`
+- Select **Open with Live Server**
 
-Desktop: full menu
+---
 
-Mobile: hamburger menu
+## 📦 Responsive Features Implemented
 
-Auto collapses
+### 🔹 Responsive Navbar
+- Desktop: Full navigation menu
+- Mobile: Hamburger menu
+- Auto-collapsing behavior
 
-Hero Section
+### 🔹 Hero Section
+- Text and image adapt to screen width
+- Image stacks below text on smaller screens
 
-Image and text adapt to screen width
+### 🔹 Cards & Logos Section
+- Built using Flexbox
+- Adjusts spacing and alignment across devices
 
-Image stacks below content on small screens
+### 🔹 Typography Scaling
+- Headings resize smoothly on smaller screens
+- Optimized padding and margins for readability
 
-Cards & Logos Section
+---
 
-Uses flex + media queries
+## 📚 What I Learned
 
-Adjusts spacing and alignment
+✔ Building fully responsive UIs  
+✔ Professional use of Flexbox  
+✔ Working with SVG icons  
+✔ Designing modern landing pages  
+✔ Mobile-first responsive design  
 
-Typography Scaling
+---
 
-Headlines shrink smoothly on mobile
+## 🌟 Future Enhancements
 
-Spacing & Padding Adjustments
+- Add smooth animations
+- Implement dynamic blog routing
+- Convert into a full **React** project
+- Add **Dark Mode**
 
-Margins, paddings optimized for readability
-media query is used
+---
 
-📚 What I Learned
+## 📝 Author
 
-✔ How to build a fully responsive UI
-✔ Using Flexbox professionally
-✔ Working with SVG icons
-✔ Designing modern landing pages
-✔ Mobile-first responsiveness
+**Kumkum Kumari**  
+*Cognifyz Internship – Task 3 (Responsive Web Design)*  
 
-🌟 Future Enhancements
+---
 
-Adding animations
-
-Adding blog dynamic routing
-
-Making it a full React project
-
-Adding dark mode
-
-📝 Author
-
-Kumkum Kumari
-Cognifyz Internship – Task 3 (Responsive Web Design)
-
+⭐ *If you like this project, don’t forget to star the repository!*
