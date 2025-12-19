@@ -1,98 +1,116 @@
-🌟 Personal Portfolio Website
+# 🌟 Personal Portfolio Website
 
-A simple and clean personal portfolio website built using HTML5 & CSS3. This project is part of the Cognifyz Internship Task-1 (Basic HTML & CSS).
+A **simple, clean, and elegant personal portfolio website** built using **HTML5 & CSS3**.  
+This project was developed as part of **Cognifyz Internship – Task 1 (Basic HTML & CSS)** to demonstrate foundational web development skills.
 
-📁 Folder Structure
+---
+
+## 📌 Project Overview
+
+This portfolio website is designed to showcase:
+- Personal profile  
+- Skills and projects  
+- Contact information  
+
+It follows a **minimal UI approach** and works seamlessly across all modern browsers.
+
+---
+
+## 📁 Folder Structure
+
 Task1_Basic/
 │── index.html
 │── main.jpg
 │── package.json
 │── package-lock.json
 
-📌 Features
+yaml
+Copy code
 
-Clean and simple UI
+---
 
-Fully static website
+## ✨ Features
 
-Smooth section layout using HTML & CSS
+- 🎨 Clean and simple user interface  
+- 📄 Fully static website  
+- 🧩 Structured layout using HTML & CSS  
+- 🌐 Compatible with all modern browsers  
+- 🧑‍💻 Ideal for showcasing:
+  - Skills  
+  - Projects  
+  - Profile image  
+  - Contact details  
 
-Works on all modern browsers
+---
 
-Suitable for showcasing your:
+## 🛠️ Technologies Used
 
-Skills
+| Technology | Purpose |
+|----------|--------|
+| HTML5 | Webpage structure |
+| CSS3 | Styling and layout |
+| Images (`main.jpg`) | Profile / banner image |
 
-Projects
+---
 
-Profile image
+## 🚀 How to Run This Project
 
-Contact details
+### ✔ Option 1: Open Directly
+1. Download or clone the repository  
+2. Open `index.html` in any web browser  
+3. Done ✅  
 
-🛠️ Technologies Used
-Technology	Purpose
-HTML5	Structure of the webpage
-CSS3	Styling & layout
-Images (main.jpg)	Portfolio banner / profile image
+### ✔ Option 2: Using VS Code Live Server
+1. Open the project folder in VS Code  
+2. Right-click on `index.html`  
+3. Select **Open with Live Server**  
 
-🚀 How to Run This Project
-✔ Option 1: Open Directly
+---
 
-Download the folder
+## 🎨 Sections Included
 
-Open index.html in any browser
+- Header / Navigation Bar  
+- Hero Section (Profile Image & Introduction)  
+- About Me  
+- Skills  
+- Projects / Work Samples  
+- Contact Section  
+- Footer  
 
-Done!
+> ℹ️ Sections can be modified or extended as per project requirements.
 
-✔ Option 2: Using VS Code Live Server
-Right-click → Open with Live Server
+---
 
-🎨 Sections Included
+## 📸 Screenshots
 
-Header / Navbar
+![Homepage](/Task1_Basic_ html/assets/page01.png)  
+![About Section](/Task1_Basic_ html/assets/page02.png)  
+![Projects Section](/Task1_Basic_ html/assets/page03.png)  
+![Contact Section](/Task1_Basic_ html/assets/page04.png)  
 
-Hero section with profile image
+---
 
-About Me
+## 📚 What I Learned
 
-Skills
+- Building webpages using **pure HTML & CSS**  
+- Designing clean and simple user interfaces  
+- Page layout and section structuring  
+- Styling images and text effectively  
 
-Projects / Work Samples
+---
 
-Contact Section
+## 🔮 Future Enhancements
 
-Footer
+- 📱 Make the website fully responsive  
+- ✨ Add animations and transitions  
+- 📬 Integrate a contact form  
+- ⚛️ Convert to React or Tailwind CSS  
 
-(Modify depending on what your portfolio contains — I can adjust if you want)
+---
 
-📸 Screenshot
-![alt text](<Task1_Basic_ html/assets/page01.png>)
-![alt text](<Task1_Basic_ html/assets/page02.png>)
-![alt text](<Task1_Basic_ html/assets/page03.png>)
-![alt text](<Task1_Basic_ html/assets/page04.png>)
+## 👩‍💻 Author
 
+**Kumkum Kumari**  
+🎓 *Cognifyz Internship – Task 1 (Basic HTML & CSS)*  
 
-📚 What I Learned
-
-Building webpages using pure HTML & CSS
-
-Designing simple UI
-
-Positioning & layout
-
-Styling images and sections
-
-🔮 Future Enhancements
-
-Make it responsive
-
-Add animations
-
-Add contact form
-
-Convert to React or TailwindCSS
-
-👩‍💻 Author
-
-Kumkum Kumari
-Cognifyz Internship – Task 1 (Basic HTML & CSS)
+---
