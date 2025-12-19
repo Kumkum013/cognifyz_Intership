@@ -1,0 +1,75 @@
+/* GLOBAL STYLE */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #222;
+}
+
+/* MAIN CONTAINER SPACING */
+div, section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADINGS */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ABOUT SECTION TABLE */
+table {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+td img {
+  border-radius: 10px;
+  display: block;
+}
+
+/* LIST STYLE */
+ul {
+  padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}

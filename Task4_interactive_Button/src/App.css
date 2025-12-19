@@ -1,0 +1,150 @@
+/* Full-screen background */
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-color 0.4s ease;
+}
+
+/* Palette wrapper */
+.palette-box {
+  display: flex;
+  gap: 20px;
+  padding: 20px 25px;
+  background: white;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Each color item */
+.color-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Round color buttons */
+.color-btn {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.color-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Color label */
+.color-label {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+  text-transform: uppercase;
+}
+
+/* ===== Base Styling ===== */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease;
+  padding: 20px;
+}
+
+.palette-box {
+  background: #ffffffaa;
+  padding: 25px;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.color-item {
+  text-align: center;
+}
+
+.color-btn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.color-btn:hover {
+  transform: scale(1.15);
+}
+
+.color-label {
+  margin-top: 8px;
+  font-weight: 600;
+  color: #222;
+}
+
+
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  .palette-box {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .color-btn {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+  .app-container {
+    padding: 15px;
+  }
+
+  .palette-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 18px;
+  }
+
+  .color-btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .color-label {
+    font-size: 14px;
+  }
+}
+
+/* Small Mobile Phones (360px and below) */
+@media (max-width: 360px) {
+  .palette-box {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 16px;
+  }
+
+  .color-btn {
+    width: 55px;
+    height: 55px;
+  }
+}
+
