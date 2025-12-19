@@ -83,10 +83,10 @@ Copy code
 
 ## 📸 Screenshots
 
-![Homepage](/Task1_Basic_ html/assets/page01.png)  
-![About Section](/Task1_Basic_ html/assets/page02.png)  
-![Projects Section](/Task1_Basic_ html/assets/page03.png)  
-![Contact Section](/Task1_Basic_ html/assets/page04.png)  
+![Homepage](assets/page01.png)  
+![About Section](assets/page02.png)  
+![Projects Section](assets/page03.png)  
+![Contact Section](assets/page04.png)  
 
 ---
 
