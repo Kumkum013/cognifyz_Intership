@@ -66,10 +66,10 @@ Footer
 (Modify depending on what your portfolio contains — I can adjust if you want)
 
 📸 Screenshot
-![alt text](<D:\Coding\Cognifyz-Internship\Task1_Basic_ html\assets\page01.png>)
-![alt text](<D:\Coding\Cognifyz-Internship\Task1_Basic_ html\assets\page02.png>)
-![alt text](<D:\Coding\Cognifyz-Internship\Task1_Basic_ html\assets\page03.png>)
-![alt text](<D:\Coding\Cognifyz-Internship\Task1_Basic_ html\assets\page04.png>)
+![alt text](<Task1_Basic_ html/assets/page01.png>)
+![alt text](<Task1_Basic_ html/assets/page02.png>)
+![alt text](<Task1_Basic_ html/assets/page03.png>)
+![alt text](<Task1_Basic_ html/assets/page04.png>)
 
 
 📚 What I Learned
